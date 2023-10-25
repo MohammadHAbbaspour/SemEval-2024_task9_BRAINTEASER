@@ -1,5 +1,7 @@
 import numpy as np
+import sys
 
+base_dir = sys.argv[1] if len(sys.argv) > 1 else 'F:\\NLP-Lab\\Internship\\SemEval\\SemEval-2024_task9_BRAINTEASER\\'
 
 def read_data(path, allow_pickle=True):
     data = np.load(path, allow_pickle=allow_pickle)
@@ -12,14 +14,14 @@ def count_unsure_choices(data):
             count += 1
     return count
 
-sp_train_data = read_data('SP-train.npy')
+sp_train_data = read_data(base_dir + 'SP-train.npy')
 print(count_unsure_choices(sp_train_data) == sp_train_data.shape[0])
 
-wp_train_data = read_data('WP-train.npy')
+wp_train_data = read_data(base_dir + 'WP-train.npy')
 print(count_unsure_choices(wp_train_data) == wp_train_data.shape[0])
 
 sp_rnd_idx = np.random.randint(0, sp_train_data.shape[0])
 wp_rnd_idx = np.random.randint(0, wp_train_data.shape[0])
 
-print(sp_train_data[sp_rnd_idx], '\n')
+print(sp_train_data[sp_train_data.shape[0]//2], '\n')
 print(wp_train_data[wp_rnd_idx])
