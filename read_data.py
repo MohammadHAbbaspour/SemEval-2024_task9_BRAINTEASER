@@ -23,5 +23,5 @@ print(count_unsure_choices(wp_train_data) == wp_train_data.shape[0])
 sp_rnd_idx = np.random.randint(0, sp_train_data.shape[0])
 wp_rnd_idx = np.random.randint(0, wp_train_data.shape[0])
 
-print(sp_train_data[sp_train_data.shape[0]//2], '\n')
+print(sp_train_data[sp_rnd_idx], '\n')
 print(wp_train_data[wp_rnd_idx])
