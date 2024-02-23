@@ -1,0 +1,47 @@
+[
+{
+	"id": "SP-0",
+	"question": "Mr. and Mrs. Mustard have six daughters and each daughter has one brother. But there are only 9 people in the family, how is that possible?",
+	"answer": "Each daughter shares the same brother.",
+	"distractor1": "Some daughters get married and have their own family.",
+	"distractor2": "Some brothers were not loved by family and moved away.",
+	"distractor(unsure)": "None of above.",
+	"label": "1",
+	"choice_list": "['Some daughters get married and have their own family.', 'Each daughter shares the same brother.', 'Some brothers were not loved by family and moved away.', 'None of above.']",
+	"choice_order": "[1, 0, 2, 3]"
+},
+{
+	"id": "SP-100_SR",
+	"question": "The same parents gave birth to two girls at the same time on the same day in the same month, but they are not twins. Why is this even a possibility?",
+	"answer": "They were not born in the same year.",
+	"distractor1": "One girl ran away from home at a young age.",
+	"distractor2": "One gril has father's last name, one girl has mother's last name.",
+	"distractor(unsure)": "None of above.",
+	"label": "2",
+	"choice_list": "['One girl ran away from home at a young age.', 'One gril has father's last name, one girl has mother's last name.', 'They were not born in the same year.', 'None of above.']",
+	"choice_order": "[1, 2, 0, 3]"
+},
+{
+	"id": "SP-208_CR",
+	"question": "You are running so fast but you're not getting closer. Where are you?",
+	"answer": "Treadmill.",
+	"distractor1": "Country road.",
+	"distractor2": "High way.",
+	"distractor(unsure)": "None of above.",
+	"label": "1",
+	"choice_list": "['Country road.', 'Treadmill.', 'High way.', 'None of above.']",
+	"choice_order": "[1, 0, 2, 3]"
+},
+{
+	"question": "In a small village, two farmers are working in their fields - a diligent farmer and a lazy farmer. The hardworking farmer is the son of the lazy farmer, but the lazy farmer is not the father of the hardworking farmer. Can you explain this unusual relationship?",
+	"choice_list": "['The lazy farmer is his mother.', 'The lazy farmer is not a responsible father as he is lazy.', 'The diligent farmer devoted himself to the farm and gradually forgot his father.', 'None of above.']"
+},
+{
+	"question": "Why do old people consume more food than young people.",
+	"choice_list": "['Older adults may have specific dietary requirements to address age-related issues', 'Older people require increased nutrient intake to support overall health and well-being.', 'Because older people live longer.', 'None of above.']"
+},
+{
+	"question": "In what year did Christmas Day and New Year's Day fall in the same year?",
+	"choice_list": "['In the first year of each century.', 'It happens every year.', 'In the period of BC.', 'None of above.']"
+}
+]
